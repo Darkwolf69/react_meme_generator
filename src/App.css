@@ -51,9 +51,23 @@ main {
 .form--button {
     grid-column: 1 / -1;
     font-family: "Karla", sans-serif;
-    border-radius: 5px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-    color: white;
-    border: none;
+    text-align: center;
     cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color:#950ac7;
+    /*background-color: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);*/
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
+  
+.form--button:hover { background-color:#a607e0; }
+  
+.form--button:active {
+    background-color: #672280;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
