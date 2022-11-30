@@ -17,6 +17,7 @@ export default function Meme() {
             setAllMemes(data.data.memes);
         }
         getMemes()
+        //console.log("memes fetched!");
     }, [])
 
     function getMemeImage() {
